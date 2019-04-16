@@ -12,3 +12,13 @@ Git commands:
 ! Uneori dorim sa facem un backup 'in the cloud'
 	- dorim sa share-uim cu alti developeri
 	- dorim sa ne asiguram ca in caz ca the computer fails, we still have the code somewhere
+
+
+Pasi git cloud (Github):
+	1. cont pe github
+	2. repository new pe github
+	3. pe local (unde este folder-ul .git) rulam comenzile:
+		git remote add origin https://github.com/ErnestinaDobre/HowGitWorks.git  -- ii zice lui git local de ce git 'remote' (cloul) e legat
+		
+	4. de fiecare data cand dorim sa 'impingem' codul de pe local pe 'cloud':
+		 git push -u origin master
