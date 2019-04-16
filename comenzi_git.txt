@@ -1,0 +1,8 @@
+Git commands:
+	git init   -- initialize a repository = ii spunem lui git ca trebuie sa fie activ in the current folder
+	git add fisier.txt   -- ii zicem lui git sa track-uiasca fisierul 'fisier.txt'
+		git add .    -- ii zicem lui git sa track-uiasca everything in the current folder
+	git commit -m "mesaj lol"   -- ii zicem lui git sa faca backup
+
+	git log  -- vedem ce backup-uri au fost facute
+	git checkout <ID HERE>  -- ii zicem lui git sa revina la o versiune anterioara a proiectului
