@@ -6,3 +6,9 @@ Git commands:
 
 	git log  -- vedem ce backup-uri au fost facute
 	git checkout <ID HERE>  -- ii zicem lui git sa revina la o versiune anterioara a proiectului
+
+	* comenzile de mai sus le putem folosi local (nu avem nevoie de cont pe bitbucket sau github)
+
+! Uneori dorim sa facem un backup 'in the cloud'
+	- dorim sa share-uim cu alti developeri
+	- dorim sa ne asiguram ca in caz ca the computer fails, we still have the code somewhere
